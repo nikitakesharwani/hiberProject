@@ -37,6 +37,13 @@ public class App {
 		p.setPhno("907878787");
 
 		session.save(p);
+		
+		Candy c = new Candy();
+		c.setCid(111);
+		c.setName("Eclaire");
+		c.setPrice(5);
+		
+		session.save(c);
 
 		t.commit();
 		System.out.println("Data Successfully Saved to database");
