@@ -14,7 +14,7 @@
 			<column name="NAME"/> 
 		</property> 
 		<property name="phno" type="java.lang.String"> 
-			<column name="PHONE NO"/>
+			<column name="PHONE_NO"/>
 		</property> 
 		
 	</class> 

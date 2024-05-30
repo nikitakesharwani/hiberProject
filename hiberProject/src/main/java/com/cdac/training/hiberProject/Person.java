@@ -4,6 +4,13 @@ public class Person {
 	private int id;
 	private String name;
 	private String phno;
+	
+	
+	
+	
+	public Person() {
+		super();
+	}
 	public String getName() {
 		return name;
 	}
@@ -17,10 +24,6 @@ public class Person {
 		this.phno = phno;
 	}
 
-	public Person() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
 	public int getId() {
 		return id;
 	}
