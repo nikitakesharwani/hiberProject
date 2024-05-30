@@ -19,7 +19,7 @@
 		<property name="dept" type="java.lang.String"> 
 			<column name="DEPARTMENT"/>
 		</property> 
-		<property name="salary" type="float"> 
+		<property name="salary" type="double"> 
 			<column name="SALARY"/> 
 		</property> 
 	</class> 
